@@ -14,7 +14,6 @@ interface MenuItem {
   styleUrls: ['./sidebar.component.css'],
 })
 export class SidebarComponent {
-  //@Input() isSidebarCollapsed = false;
   @Input() isSidebarCollapsed = true;
   @Output() sidebarToggle = new EventEmitter<void>();
 
